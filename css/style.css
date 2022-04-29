@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    line-height: 2em;
+  }
+
+  #info {
+    color: #aaa;
+    padding: 0.25em 0.5em;
+    z-index: 100;
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0em;
+    color: #f40;
+  }
+
+  canvas {
+    border: solid 0px #000;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .help {
+    color: #777;
+  }
+
+  .help b {
+    color: #aaa;
+  }
+
+  #info_desktop,
+  #info_mobile {
+    display: none;
+  }
+
+  a {
+    color: #eee;
+  }
+
+  #stats {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #stats #fps {
+    background: transparent !important;
+  }
+
+  #stats #fps #fpsText {
+    color: #666 !important;
+  }
+
+  #stats #fps #fpsGraph {
+    display: none;
+  }
+
+  #loading {
+    background: #0af;
+    color: white;
+    padding: 0.25em 1em;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 200;
+  }
